@@ -19,7 +19,7 @@
       <img src="img/logo/logo.png" alt="Yolomy">
       <a href="#" class="btn btn-rounded">Home</a>
       <a href="#" class="btn btn-rounded">Products</a>
-      <a href="#" class="btn btn-rounded"><i class="fa fa-shopping-cart btn-icon" aria-hidden="true"></i></a>
+      <a href="#" class="btn btn-rounded" target="_blank"><i class="fa fa-shopping-cart btn-icon" aria-hidden="true"></i></a>
     </div>
     <div class="showcase-content">
       <h1>Our Clothing, your comfort</h1>
@@ -29,26 +29,151 @@
     </div>    
   </header>
   <!-- Products section head -->
-  <section id="products-header">
+  <section id="products-header" class="tabs">
     <div class="container">
         <div class="row">
             <div class="col-6">
               <form class="form">
-                <div class="checkbox">
-                  <label class="checkbox-inline"><input type="checkbox"> Men</label>        
-                  <label class="checkbox-inline"><input type="checkbox"> Women</label>
-                  <label class="checkbox-inline"><input type="checkbox"> Children</label>
+                <div class="form-check-inline">
+                  <label class="form-check-label" for="check1">
+                    <input type="checkbox" class="form-check-input">Men</label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label" for="check1">
+                    <input type="checkbox" class="form-check-input">Women</label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label" for="check1">
+                    <input type="checkbox" class="form-check-input">Children</label>
                 </div>
               </form>
               </div>
-            
             <div class="col-6">
               <a href="#" class="btn btn-lg" style="margin-left: 50%;">SEE ALL PRODUCTS</a>
             </div>
         </div>
     </div>
-
   </section>
+  <!-- ----- featured products -------- -->
+  <div class="categories">
+    <div class="small-container">
+      
+      <div class="border-top my-3"> Men</div>
+      <div class="scroll-ui">
+        <span class="float-right">1 /5 <br>  <i class="fa fa-chevron-left" ></i><i class="fa fa-chevron-right" ></i></span> 
+       </div>
+       <br>
+      <div class="row">
+        
+          <div class="product-card">
+            <div id="product-head">
+              <p style="color: black;">SIZE<i class="fa fa-chevron-down" ></i></p>
+              <div>
+                <i class="fa fa-circle" style="color: blue;"></i>
+                <i class="fa fa-circle" style="color: green;"></i>
+                <i class="fa fa-circle" ></i>
+              </div>
+            </div>
+            <div class="product-image">
+              <img src="/img/products/tshirt.png">
+            </div>
+            <div class="product-info">
+              <h5>T-shirt</h5>
+              <h6>5,00&euro;</h6>
+            </div>
+          </div>
+        
+        <div class="product-card">
+          <div id="product-head">
+            <p style="color: black;">SIZE<i class="fa fa-chevron-down" ></i></p>
+          </div>
+          <div class="product-image">
+            <img src="/img/products/pants.png">
+          </div>
+          <div class="product-info">
+            <h5>T-shirt</h5>
+            <h6>30,00&euro;</h6>
+          </div>
+        </div>
+        <div class="product-card">
+          <div id="product-head">
+            <p style="color: black;">10LITRE</p> 
+          </div>
+          <div class="product-image">
+            <img src="/img/products/backpack.png">
+          </div>
+          <div class="product-info">
+            <h5>T-shirt</h5>
+            <h6>60,00&euro;</h6>
+          </div>
+        </div>
+        </div>
+      <!-- women row -->
+      
+      <span class="float-right">Women</span>
+      <div class="border-top my-3"></div>
+      <div class="scroll-ui">
+       <span class="float-left">1 /5 <br>  <i class="fa fa-chevron-left" ></i><i class="fa fa-chevron-right" ></i></span> 
+      </div>
+          <br>
+      <div class="row">
+        <div class="product-card">
+          <div id="product-head">
+            <p style="color: black;">SIZE<i class="fa fa-chevron-down" ></i></p>
+          </div>
+          <div class="product-image">
+            <img src="/img/products/giacket.png">
+          </div>
+          <div class="product-info">
+            <h5>T-shirt</h5>
+            <h6>60,00&euro;</h6>
+          </div>
+        </div>
+        <div class="product-card">
+          <div id="product-head">
+            <p style="color: black;">SIZE<i class="fa fa-chevron-down" ></i></p>
+          </div>
+          <div class="product-image">
+            <img src="/img/products/trekkingshoes.png">
+          </div>
+          <div class="product-info">
+            <h5>T-shirt</h5>
+            <h6>80,00&euro;</h6>
+          </div>
+        </div>
+        <div class="product-card">
+          <div id="product-head">
+            <p style="color: black;">SIZE<i class="fa fa-chevron-down" ></i></p>
+            <div>
+                <i class="fa fa-circle" style="color:pink;"></i>
+                <i class="fa fa-circle" style="color: white;"></i>
+              </div>
+          </div>
+          <div class="product-image">
+            <img src="/img/products/tshirt_ladies.png">
+          </div>
+          <div class="product-info">
+            <h5 style="color: brown;">T-shirt</h5>
+            <h6 >20,00&euro;</h6>
+          </div>
+        </div>
+      </div>
+      <!-- products end -->
+    </div>
+  </div>
+<!-- ABOUT SECTION -->
+<section class="about">
+  <p style="border-style: none; font-size:larger">ABOUT US</p>
+  <div id="about"> 
+    
+    <p style="font-size: x-large;">
+       
+      This is where high-fashioned clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who undersytand what fashion is.
+    </p>
+
+  </div>
+
+</section>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

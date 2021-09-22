@@ -17,9 +17,7 @@ body {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   color: #fff;
 }
 
@@ -129,7 +127,7 @@ img {
   text-transform: uppercase;
 }
 
-/*  */
+/* products */
 #products-header {
   background: #c3c1a2;
   height: 100px;
@@ -144,4 +142,80 @@ img {
 
 #products-header .row {
   padding-top: 2.5rem;
+}
+/* featured products */
+.product-image {
+  align-self: center;
+  justify-self: center;
+  height: 80%;
+  margin-top: -40px;
+}
+
+.small-container {
+  max-width: 70%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.small-container .row {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.product-card {
+  background: rgb(214, 214, 214);
+  display: grid;
+
+  justify-self: center;
+  border: 2px white solid;
+  padding-bottom: 2rem;
+  width: 300px;
+  height: 300px;
+}
+
+.product-card:hover {
+  opacity: 0.7;
+}
+
+.product-card h5,
+h6 {
+  color: black;
+  padding: 30px;
+  font-weight: 500;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#product-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.about {
+  background: url("../img/backgrounds/about.jpg") no-repeat center center/cover;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  justify-items: center;
+}
+
+.about p {
+  padding-top: 2rem;
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+#about {
+  margin-top: 50px;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  border: 2px solid grey;
 }
