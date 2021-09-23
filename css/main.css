@@ -14,8 +14,8 @@ li {
 .container {
   width: 80%;
 }
-/*  */
-#showcase {
+
+.showcase {
   background-image: url("../img/backgrounds/hero.jpg");
   background-repeat: no-repeat;
   height: 100vh;
@@ -74,6 +74,10 @@ li {
   background: gainsboro;
 }
 
+#product-box:hover {
+  border: 2px solid #926239;
+}
+
 #about {
   margin-top: 100px;
   background-image: url("../img/backgrounds/about.jpg");
@@ -81,8 +85,12 @@ li {
   background-size: cover;
   display: flex;
   text-align: center;
-  padding: 10% 30%;
+  padding: 8% 30%;
   color: white;
+}
+#about p {
+  font-size: 20px;
+  padding: 10px 20px;
 }
 
 #promo {
@@ -98,6 +106,7 @@ li {
   flex-direction: column;
   color: white;
   justify-content: space-evenly;
+  justify-items: center;
 }
 
 #footer-col {
@@ -109,4 +118,3 @@ li {
   padding-right: 5px;
   padding-bottom: 10px;
 }
-

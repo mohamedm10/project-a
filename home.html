@@ -15,19 +15,19 @@
 <body>
   <!-- START HERE -->
   
-  <header id="showcase">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
+  <header class="showcase" id="home">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-transparent" id="main-nav">
       <div class="container">
           <img src="/img/logo/logo.png" >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav justify-content-end">
               <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-shopping-cart btn-icon"></i></a>
+                  <a class="nav-link" href="#products"><i class="fa fa-shopping-cart btn-icon"></i></a>
               </li>
           </ul>
       </div>
@@ -37,7 +37,7 @@
 
       <p>We understand that you need to look good and feel great. <br> It all starts with what you are wearing</p>
 
-      <a style="margin-top: 15%;" href="#"><img src="/img/mouse_click.png" ></a>
+      <a id="main-nav" style="margin-top: 15%;" href="#products"><img src="/img/mouse_click.png" ></a>
     </div>
 
   </header>
@@ -101,19 +101,19 @@
           </div> 
         </div>
         <img src="/img/products/tshirt.png" >
-        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">T-SHIRT</p> <p>5,00 &euro;</p></div>
+        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">T-SHIRT</p> <p style="font-weight:bold ;">5,00 &euro;</p></div>
       </div>
 
       <div id="product-box" class="p-4 item-hl">
         <div id="product-info"><p>SIZE<i class="fa fa-chevron-down" ></i></p></div>
         <img src="/img/products/pants.png" >
-        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">PANTS</p> <p>5,00 &euro;</p></div>
+        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">PANTS</p> <p style="font-weight:bold ;">30,00 &euro;</p></div>
       </div>
 
       <div id="product-box" class="p-4 item-hl">
         <div id="product-info"><p>10LITRI</p></div>
         <img src="/img/products/backpack.png" >
-        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">BACKPACK</p> <p>5,00 &euro;</p></div>
+        <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">BACKPACK</p> <p style="font-weight:bold ;">60,00 &euro;</p></div>
       </div>
     </div>
 <!-- women section -->
@@ -142,13 +142,13 @@
       
     </div>
     <img src="/img/products/giacket.png" >
-    <div id="product-info" style="margin-top: 50px;"> <p style="color: #926239;">T-SHIRT</p> <p>5,00 &euro;</p></div>
+    <div id="product-info" style="margin-top: 50px;"> <p style="color: #926239;">GIACKET</p> <p style="font-weight:bold ;">60,00 &euro;</p></div>
   </div>
 
   <div id="product-box" class="p-4 item-hl">
     <div id="product-info"><p>SIZE<i class="fa fa-chevron-down" ></i></p></div>
     <img src="/img/products/trekkingshoes.png" >
-    <div id="product-info" style="margin-top: 100px;"> <p style="color: #926239;">PANTS</p> <p>5,00 &euro;</p></div>
+    <div id="product-info" style="margin-top: 100px;"> <p style="color: #926239;">TREKKING SHOES</p> <p style="font-weight:bold ;">80,00 &euro;</p></div>
   </div>
 
   <div id="product-box" class="p-4 item-hl">
@@ -160,7 +160,7 @@
       </div> 
     </div>
     <img src="/img/products/tshirt_ladies.png" >
-    <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">BACKPACK</p> <p>5,00 &euro;</p></div>
+    <div id="product-info" style="margin-top: 20%;"> <p style="color: #926239;">T-SHIRT</p> <p style="font-weight:bold ;">20,00 &euro;</p></div>
   </div>
 </div>
 
@@ -170,8 +170,8 @@
 <!-- about us -->
 <section id="about">
 <div class="container">
-  <h3>About Us</h3>
-  <p style="border: 2px groove white;">This is where high-fashioned clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who undersytand what fashion is.</p>
+   <h3>ABOUT US</h3>
+  <p style="border: 2px groove #d6af8d;">This is where high-fashioned clothing is designed and crafted from the heart by an amazing team of craftsmen and designers who undersytand what fashion is.</p>
 
 </div>
 </section>
@@ -188,6 +188,7 @@
 <section id="footer">
 <div class="container">
   <div class="d-flex justify-content-around row-hl">
+    
     <div id="footer-col" class="p-4 item-hl text-left" >
       <h3>Yolomy</h3>
       <p>WE ARE YOLOMY - WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE</p>
@@ -226,13 +227,39 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+  </script>
+  <script>
+    $('body').scrollspy({target: "#main-nav"});
+
+    // add smooth scrolling
+    $('#main-nav a').on('click', function(e){
+      // check for a hash value
+      if(this.hash !=="") {
+        // prevent default behaviour
+        e.preventDefault();
+        // store hash 
+        const hash = this.hash;
+        // animatesmooth scroll
+        $('html, body ').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function() {
+          // add hash to url after the scroll
+          window.location.hash =hash;
+        })
+      }
+    });
+
+
   </script>
 </body>
 
